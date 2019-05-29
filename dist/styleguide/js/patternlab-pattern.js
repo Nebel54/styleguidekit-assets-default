@@ -42,7 +42,7 @@ if (self != top) {
 				// just do normal stuff
 			} else if (href && href !== "#") {
 				e.preventDefault();
-				window.location.replace(href);
+				// window.location.replace(href);
 			} else {
 				e.preventDefault();
 				return false;
